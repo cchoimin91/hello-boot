@@ -1,0 +1,4 @@
+package com.example.helloboot
+
+apply plugin: 'java'
+apply plugin: 'idea'
