@@ -12,7 +12,7 @@ public class UserController {
 
     @GetMapping("/")
     public String getUser(){
-        User user= User.builder().name("민").age(33).build();
+        User user= User.builder().name("민").age(200).build();
         log.info(">>>>> user={}", user);
         return user.toString();
     }
